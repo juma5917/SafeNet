@@ -1,0 +1,203 @@
+{
+  "title": "SafeNet Mentor Curriculum: Digital Literacy & GBV Prevention",
+  "version": "1.1",
+  "description": "A professional, trauma-informed curriculum designed to empower girls, women, and community allies with practical digital safety, prevention strategies, and survivor-centered response.",
+  "language": "en",
+  "created_at": "2025-11-28",
+  "modules": [
+    {
+      "id": "intro",
+      "title": "Introduction & Context",
+      "summary": "Foundations: what GBV is, trauma-aware language, consent, and why digital literacy matters.",
+      "lessons": [
+        {
+          "id": "intro-1",
+          "title": "Why This Curriculum Matters",
+          "overview": "Set the scene: prevalence, cultural context, and the role of digital spaces in both risk and empowerment.",
+          "objectives": [
+            "Recognize different forms of GBV (physical, sexual, emotional, economic, digital)",
+            "Understand basic trauma-informed principles when engaging with survivors",
+            "Explain how digital tools can both help and harm safety"
+          ],
+          "estimated_time": "15 minutes",
+          "activities": [
+            "Icebreaker: personal safety map (private reflection)",
+            "Group discussion prompt: local examples where technology helped or harmed safety"
+          ],
+          "resources": [
+            { "label": "Intro slide deck (PDF)", "url": "https://example.org/safenet/intro.pdf" }
+          ],
+          "quiz": [
+            {
+              "q": "Which of these is NOT a form of GBV?",
+              "options": ["Emotional abuse","Economic control","Random weather patterns"],
+              "answer": 2
+            }
+          ],
+          "reflection_prompt": "Write one way technology has affected your or a friend's safety (private).",
+          "facilitator_tips": "Create a safe space; remind participants they can skip sharing personal stories.",
+          "badge": "foundation-ready"
+        },
+        {
+          "id": "intro-2",
+          "title": "Trauma-informed Care & Consent",
+          "overview": "Principles of listening, non-judgmental support, and informed consent for disclosure.",
+          "objectives": [
+            "Apply basic trauma-informed language",
+            "Practice active listening and safe referral steps",
+            "Recognize when immediate help is needed"
+          ],
+          "estimated_time": "20 minutes",
+          "activities": [
+            "Role-play: supportive listening (in pairs)",
+            "Quick checklist: what NOT to say to a survivor"
+          ],
+          "resources": [],
+          "quiz": [
+            {
+              "q": "What is a trauma-informed response?",
+              "options": ["Blaming the survivor","Listening without judgement","Forcing a disclosure"],
+              "answer": 1
+            }
+          ],
+          "reflection_prompt": "How will you change the way you listen to someone who discloses harm?",
+          "facilitator_tips": "Offer private support options and list local referral services.",
+          "badge": "trauma-aware"
+        }
+      ]
+    },
+
+    {
+      "id": "digital-safety",
+      "title": "Digital Safety & Privacy",
+      "summary": "Practical, easy-to-follow steps to protect devices, accounts, and personal information online.",
+      "lessons": [
+        {
+          "id": "ds-1",
+          "title": "Account Hygiene & Device Safety",
+          "overview": "Passwords, updates, device locks, and two-factor authentication (2FA).",
+          "objectives": ["Set strong unique passwords","Enable 2FA where possible","Understand software updates and device locks"],
+          "estimated_time": "20 minutes",
+          "activities": [
+            "Hands-on: check a device's privacy settings (guided)",
+            "Create a memorable passphrase exercise"
+          ],
+          "video_url": "https://youtube.com/example-passwords",
+          "resources": [
+            { "label": "Password managers guide", "url": "https://example.org/passwords" }
+          ],
+          "quiz": [
+            {
+              "q": "Which is the strongest password option?",
+              "options": ["123456","passw0rd","CorrectHorseBatteryStaple"],
+              "answer": 2
+            }
+          ],
+          "reflection_prompt": "When was the last time you updated your device or passwords?",
+          "facilitator_tips": "Offer a quiet corner to set up 2FA for participants who want help.",
+          "badge": "digital-basics"
+        },
+        {
+          "id": "ds-2",
+          "title": "Dealing with Harassment & Privacy Breaches",
+          "overview": "Blocking, reporting, preserving digital evidence, and safe steps to protect privacy after harassment.",
+          "objectives": ["Take immediate steps to stop contact","Collect and store evidence safely","Access reporting tools and support services"],
+          "estimated_time": "25 minutes",
+          "activities": [
+            "Scenario: create a safe evidence log (screenshots, timestamps)",
+            "Practice: safely block and report on a sample platform"
+          ],
+          "resources": [
+            { "label": "How to report on common platforms", "url": "https://example.org/reporting" }
+          ],
+          "quiz": [
+            {
+              "q": "What should you do first if someone is threatening you online?",
+              "options": ["Respond back aggressively","Block and collect evidence","Share publicly"],
+              "answer": 1
+            }
+          ],
+          "reflection_prompt": "Identify one contact or service you would reach out to if you were harassed online.",
+          "facilitator_tips": "Respect privacy; do not ask participants to share screenshots publicly.",
+          "badge": "privacy-protect"
+        }
+      ]
+    },
+
+    {
+      "id": "healthy-relationships",
+      "title": "Healthy Relationships, Consent & Boundaries",
+      "summary": "Practical skills to recognize healthy vs unhealthy dynamics and communicate consent and boundaries.",
+      "lessons": [
+        {
+          "id": "hr-1",
+          "title": "Consent & Respect",
+          "overview": "Clear definitions of consent, examples, and practicing clear communication.",
+          "objectives": ["Define consent clearly","Practice asking for and giving consent","Identify boundary-setting language"],
+          "estimated_time": "20 minutes",
+          "activities": ["Role-play consent scenarios","Create boundary scripts for common situations"],
+          "quiz": [
+            { "q": "Consent is: ", "options": ["A one-time yes for everything","Ongoing and specific agreement","Always assumed"], "answer": 1 }
+          ],
+          "reflection_prompt": "Think of one boundary you want to practice setting this week.",
+          "facilitator_tips": "Keep role-plays short and debrief gently.",
+          "badge": "consent-confident"
+        },
+        {
+          "id": "hr-2",
+          "title": "Recognizing Coercion and Power Imbalance",
+          "overview": "How to spot coercive tactics and support those affected without judgement.",
+          "objectives": ["Identify coercive behaviors","Support survivors without pressuring them","Refer to local services appropriately"],
+          "estimated_time": "25 minutes",
+          "activities": ["Case study: identify red flags","Create a non-judgmental referral script"],
+          "quiz": [],
+          "reflection_prompt": "What would make it easier for someone in your community to seek help?",
+          "facilitator_tips": "Share local referral contacts and ensure participants know confidentiality limits.",
+          "badge": "power-aware"
+        }
+      ]
+    },
+
+    {
+      "id": "response-recovery",
+      "title": "Responding to Incidents & Recovery",
+      "summary": "Steps for immediate safety, medical and legal options, mental health supports, and long-term recovery resources.",
+      "lessons": [
+        {
+          "id": "rr-1",
+          "title": "Immediate Safety & Medical Response",
+          "overview": "How to prioritize safety, secure care, and document injuries while respecting survivor choice.",
+          "objectives": ["Create an emergency plan","Know how to access local medical services","Understand evidence preservation basics"],
+          "estimated_time": "30 minutes",
+          "activities": ["Create a personalised emergency plan","Map local safe services (clinic, police, shelters)"],
+          "resources": [
+            { "label": "Emergency care checklist", "url": "https://example.org/emergency" }
+          ],
+          "quiz": [],
+          "reflection_prompt": "List two trusted people you can contact in an emergency.",
+          "facilitator_tips": "Provide private referral options and avoid pressuring disclosure.",
+          "badge": "safety-ready"
+        },
+        {
+          "id": "rr-2",
+          "title": "Long-term Recovery & Community Support",
+          "overview": "Mental health supports, peer groups, legal aid options, and economic empowerment resources.",
+          "objectives": ["Identify local support services","Access mental health and peer support resources","Explore safe economic supports"],
+          "estimated_time": "30 minutes",
+          "activities": ["Plan for next steps: what support would you want?","Create a personal recovery roadmap"],
+          "resources": [
+            { "label": "List of support organizations", "url": "https://example.org/support" }
+          ],
+          "quiz": [],
+          "reflection_prompt": "What is one small step you can take towards recovery this month?",
+          "facilitator_tips": "Share optional follow-up group sessions and remote support options.",
+          "badge": "recovery-ready"
+        }
+      ]
+    }
+  ],
+  "accessibility": {
+    "notes": "All lesson content includes audio narration, large-text PDFs, and simplified summaries for low-literacy learners.",
+    "language_support": ["en", "sw"]
+  }
+}
