@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: safenet-backend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    rootDir: backend
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        fromDatabase:
+          name: safenet
+          property: connectionString
+      - key: JWT_SECRET
+        sync: false
+      - key: AI_PROVIDER
+        value: mock
